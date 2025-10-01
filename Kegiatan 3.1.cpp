@@ -7,8 +7,7 @@ int main(){
 	ifstream file("data_input.txt")
 	if(file){
 		cout<<"File sukses dibuka!"<<endl;
-		while(i<5){
-			file>>data
+		while(file>>data){
 			cout<<data<<endl;
 		}
 		file.close();
@@ -18,3 +17,4 @@ int main(){
 		return 1;
 	}
 }
+
