@@ -7,7 +7,7 @@ double celcius(double c,double n){
 	for(int i=0; i < n; i++){
 		cout << "Masukkan suhu ke- "<< i+1 << "(celcius): " << endl;
 		cin >> c;
-		cout << "Celcius: " << c << endl << "Fahrenheit: " << c + 32 << endl << "Kelvin: " << c + 273 << endl; 
+		cout << "Celcius: " << c << endl << "Fahrenheit: " << (c*9/5) + 32 << endl << "Kelvin: " << c + 273 << endl; 
 	}
 };
 
@@ -16,3 +16,4 @@ int main(){
 	cout << celcius(c,n);
 	return 0;
 }
+
