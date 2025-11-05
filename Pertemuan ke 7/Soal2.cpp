@@ -14,7 +14,7 @@ void passByValue(int x, int y) {
  int main() {
  cout << "Masukkan bilangan pertama: " << endl;
  cin>>v;
- cout << "Masukkan bilangan pertama: " << endl;
+ cout << "Masukkan bilangan kedua: " << endl;
  cin>>z;
  cout << "sebelum ditukar: a: " << v << ", b: "<< z << endl;
  passByValue(v,z);
@@ -23,4 +23,5 @@ void passByValue(int x, int y) {
  cout << "Pass by Reference: " << v << "," << z << endl;
  return 0;
  }
+
 
